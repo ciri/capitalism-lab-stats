@@ -1,0 +1,25 @@
+{
+  "save_file": "SPIK_003.SAV",
+  "scenario": "Spike challenge series",
+  "source_path": "C:\\Users\\enric\\Documents\\My Games\\Capitalism Lab\\SAVE\\SPIK_003.SAV",
+  "game": "Capitalism Lab",
+  "world_snapshot": {
+    "size_mb": 9.257,
+    "data_density": "high_activity",
+    "entropy": 7.985479,
+    "zero_ratio": 0.004324
+  },
+  "companies": {
+    "main_company_name": "Unknown (not directly stored in detected text)",
+    "estimated_company_count": "Unknown"
+  },
+  "firms": {
+    "firm_names_detected": [],
+    "stores": "Unknown (requires deeper struct decoding)",
+    "factories": "Unknown (requires deeper struct decoding)"
+  },
+  "quality_notes": [
+    "This summary is designed for human readability and avoids raw offset-level details.",
+    "Detailed firm/store decoding requires further struct inference from binary regions."
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "summary_files": [
+    "SPIK_001.json",
+    "SPIK_002.json",
+    "SPIK_003.json"
+  ],
+  "pairwise_comparison": [
+    {
+      "left": "SPIK_001.SAV",
+      "right": "SPIK_002.SAV",
+      "size_mb_delta": -3.727,
+      "entropy_delta": -0.035684,
+      "zero_ratio_delta": 0.00409,
+      "same_scenario": true
+    },
+    {
+      "left": "SPIK_001.SAV",
+      "right": "SPIK_003.SAV",
+      "size_mb_delta": 3.15,
+      "entropy_delta": -3.8e-05,
+      "zero_ratio_delta": -0.000565,
+      "same_scenario": true
+    },
+    {
+      "left": "SPIK_002.SAV",
+      "right": "SPIK_003.SAV",
+      "size_mb_delta": 6.877,
+      "entropy_delta": 0.035646,
+      "zero_ratio_delta": -0.004655,
+      "same_scenario": true
+    }
+  ]
+}
