@@ -1,7 +1,7 @@
 {
   "file": {
     "name": "SPIK_001.SAV",
-    "path": "data/saves/SPIK_001.SAV",
+    "path": "SPIK_001.SAV",
     "size_bytes": 6403917
   },
   "header": {
@@ -180,38 +180,12 @@
         "offset": 1757732,
         "length": 17,
         "text": "t@DuDrBrFrArErCrG"
-      },
-      {
-        "offset": 18566,
-        "length": 16,
-        "text": "%tEXtdate:create"
-      },
-      {
-        "offset": 18615,
-        "length": 16,
-        "text": "%tEXtdate:modify"
-      },
-      {
-        "offset": 24424,
-        "length": 16,
-        "text": "Experimental DLC"
-      },
-      {
-        "offset": 1020,
-        "length": 15,
-        "text": "5. Stock Market"
-      },
-      {
-        "offset": 21582,
-        "length": 15,
-        "text": "Digital Age DLC"
       }
-    ],
-    "has_windows_save_path": true
+    ]
   },
-  "regions": {
+  "chunks": {
     "chunk_size": 65536,
-    "top_entropy_chunks": [
+    "highest_entropy": [
       {
         "start": 1507328,
         "end": 1572863,
@@ -281,51 +255,9 @@
         "length": 65536,
         "entropy": 7.992592,
         "zero_ratio": 0.002533
-      },
-      {
-        "start": 2228224,
-        "end": 2293759,
-        "length": 65536,
-        "entropy": 7.992538,
-        "zero_ratio": 0.002655
-      },
-      {
-        "start": 983040,
-        "end": 1048575,
-        "length": 65536,
-        "entropy": 7.992487,
-        "zero_ratio": 0.00351
-      },
-      {
-        "start": 1048576,
-        "end": 1114111,
-        "length": 65536,
-        "entropy": 7.992364,
-        "zero_ratio": 0.003082
-      },
-      {
-        "start": 1179648,
-        "end": 1245183,
-        "length": 65536,
-        "entropy": 7.99235,
-        "zero_ratio": 0.003189
-      },
-      {
-        "start": 1638400,
-        "end": 1703935,
-        "length": 65536,
-        "entropy": 7.992349,
-        "zero_ratio": 0.002441
-      },
-      {
-        "start": 1900544,
-        "end": 1966079,
-        "length": 65536,
-        "entropy": 7.992339,
-        "zero_ratio": 0.003601
       }
     ],
-    "lowest_entropy_chunks": [
+    "lowest_entropy": [
       {
         "start": 0,
         "end": 65535,
@@ -395,48 +327,6 @@
         "length": 65536,
         "entropy": 7.819546,
         "zero_ratio": 0.001343
-      },
-      {
-        "start": 2883584,
-        "end": 2949119,
-        "length": 65536,
-        "entropy": 7.837035,
-        "zero_ratio": 0.001572
-      },
-      {
-        "start": 6356992,
-        "end": 6403916,
-        "length": 46925,
-        "entropy": 7.854942,
-        "zero_ratio": 0.001556
-      },
-      {
-        "start": 2162688,
-        "end": 2228223,
-        "length": 65536,
-        "entropy": 7.892439,
-        "zero_ratio": 0.001251
-      },
-      {
-        "start": 3080192,
-        "end": 3145727,
-        "length": 65536,
-        "entropy": 7.919631,
-        "zero_ratio": 0.001831
-      },
-      {
-        "start": 2097152,
-        "end": 2162687,
-        "length": 65536,
-        "entropy": 7.944983,
-        "zero_ratio": 0.001572
-      },
-      {
-        "start": 65536,
-        "end": 131071,
-        "length": 65536,
-        "entropy": 7.978044,
-        "zero_ratio": 0.00325
       }
     ]
   }

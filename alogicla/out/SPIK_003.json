@@ -1,7 +1,7 @@
 {
   "file": {
     "name": "SPIK_003.SAV",
-    "path": "data/saves/SPIK_003.SAV",
+    "path": "SPIK_003.SAV",
     "size_bytes": 9706261
   },
   "header": {
@@ -180,38 +180,12 @@
         "offset": 2654173,
         "length": 29,
         "text": "M~`A~`A~`A~`A~`A~`A~`A~`A~`A~"
-      },
-      {
-        "offset": 20161,
-        "length": 28,
-        "text": "City Economic Simulation DLC"
-      },
-      {
-        "offset": 18684,
-        "length": 26,
-        "text": "2023-09-17T11:44:39+00:00U"
-      },
-      {
-        "offset": 18583,
-        "length": 25,
-        "text": "2023-09-07T15:34:35+00:00"
-      },
-      {
-        "offset": 18632,
-        "length": 25,
-        "text": "2023-09-07T15:34:36+00:00"
-      },
-      {
-        "offset": 23003,
-        "length": 23,
-        "text": "Banking and Finance DLC"
       }
-    ],
-    "has_windows_save_path": true
+    ]
   },
-  "regions": {
+  "chunks": {
     "chunk_size": 65536,
-    "top_entropy_chunks": [
+    "highest_entropy": [
       {
         "start": 983040,
         "end": 1048575,
@@ -281,51 +255,9 @@
         "length": 65536,
         "entropy": 7.993154,
         "zero_ratio": 0.002975
-      },
-      {
-        "start": 2686976,
-        "end": 2752511,
-        "length": 65536,
-        "entropy": 7.993008,
-        "zero_ratio": 0.003036
-      },
-      {
-        "start": 2031616,
-        "end": 2097151,
-        "length": 65536,
-        "entropy": 7.993001,
-        "zero_ratio": 0.003006
-      },
-      {
-        "start": 1966080,
-        "end": 2031615,
-        "length": 65536,
-        "entropy": 7.992991,
-        "zero_ratio": 0.00325
-      },
-      {
-        "start": 2424832,
-        "end": 2490367,
-        "length": 65536,
-        "entropy": 7.992948,
-        "zero_ratio": 0.003174
-      },
-      {
-        "start": 2359296,
-        "end": 2424831,
-        "length": 65536,
-        "entropy": 7.992848,
-        "zero_ratio": 0.00322
-      },
-      {
-        "start": 1441792,
-        "end": 1507327,
-        "length": 65536,
-        "entropy": 7.992799,
-        "zero_ratio": 0.003448
       }
     ],
-    "lowest_entropy_chunks": [
+    "lowest_entropy": [
       {
         "start": 0,
         "end": 65535,
@@ -395,48 +327,6 @@
         "length": 65536,
         "entropy": 7.777172,
         "zero_ratio": 0.000885
-      },
-      {
-        "start": 3997696,
-        "end": 4063231,
-        "length": 65536,
-        "entropy": 7.782874,
-        "zero_ratio": 0.001205
-      },
-      {
-        "start": 4194304,
-        "end": 4259839,
-        "length": 65536,
-        "entropy": 7.798477,
-        "zero_ratio": 0.001358
-      },
-      {
-        "start": 4587520,
-        "end": 4653055,
-        "length": 65536,
-        "entropy": 7.803543,
-        "zero_ratio": 0.000763
-      },
-      {
-        "start": 4784128,
-        "end": 4849663,
-        "length": 65536,
-        "entropy": 7.807448,
-        "zero_ratio": 0.00145
-      },
-      {
-        "start": 4456448,
-        "end": 4521983,
-        "length": 65536,
-        "entropy": 7.812358,
-        "zero_ratio": 0.001541
-      },
-      {
-        "start": 4521984,
-        "end": 4587519,
-        "length": 65536,
-        "entropy": 7.812634,
-        "zero_ratio": 0.001556
       }
     ]
   }

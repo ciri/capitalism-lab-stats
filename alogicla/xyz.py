@@ -19,7 +19,7 @@ def parse_u32_words(buf: bytes, count: int = 16) -> list[dict[str, int]]:
 	return words
 
 
-def find_ascii_runs(buf: bytes, min_run: int = 6, top_n: int = 25) -> list[dict[str, int | str]]:
+def find_ascii_runs(buf: bytes, min_run: int = 6, top_n: int = 20) -> list[dict[str, int | str]]:
 	runs  = []
 	start = None
 	for idx, byte in enumerate(buf):
@@ -47,7 +47,7 @@ def byte_histogram(buf: bytes) -> list[int]:
 	return hist
 
 
-def shannon_entropy_from_hist(hist: list[int], total: int) -> float:
+def entropy_from_hist(hist: list[int], total: int) -> float:
 	if total == 0:
 		return 0.0
 	acc = 0.0
@@ -59,8 +59,8 @@ def shannon_entropy_from_hist(hist: list[int], total: int) -> float:
 	return round(acc, 6)
 
 
-def chunk_entropy(buf: bytes, chunk_size: int = 65536, top_n: int = 16) -> dict:
-	chunks = []
+def chunk_stats(buf: bytes, chunk_size: int = 65536, top_n: int = 10) -> dict:
+	entries = []
 	for start in range(0, len(buf), chunk_size):
 		end   = min(len(buf), start + chunk_size)
 		part  = buf[start:end]
@@ -69,24 +69,22 @@ def chunk_entropy(buf: bytes, chunk_size: int = 65536, top_n: int = 16) -> dict:
 			"start": start,
 			"end": end - 1,
 			"length": len(part),
-			"entropy": shannon_entropy_from_hist(hist, len(part)),
-			"zero_ratio": round(hist[0] / len(part), 6) if part else 0.0,
+			"entropy": entropy_from_hist(hist, len(part)),
+			"zero_ratio": round(hist[0] / len(part), 6) if len(part) else 0.0,
 		}
-		chunks.append(entry)
+		entries.append(entry)
 	return {
 		"chunk_size": chunk_size,
-		"top_entropy_chunks": sorted(chunks, key=lambda item: item["entropy"], reverse=True)[:top_n],
-		"lowest_entropy_chunks": sorted(chunks, key=lambda item: item["entropy"])[:top_n],
+		"highest_entropy": sorted(entries, key=lambda item: item["entropy"], reverse=True)[:top_n],
+		"lowest_entropy": sorted(entries, key=lambda item: item["entropy"])[:top_n],
 	}
 
 
 def decode_save(path: Path) -> dict:
-	buf        = path.read_bytes()
-	hist       = byte_histogram(buf)
-	non_zero   = len(buf) - hist[0]
-	ascii_runs = find_ascii_runs(buf)
-
-	report = {
+	buf      = path.read_bytes()
+	hist     = byte_histogram(buf)
+	non_zero = len(buf) - hist[0]
+	return {
 		"file": {
 			"name": path.name,
 			"path": str(path),
@@ -99,22 +97,20 @@ def decode_save(path: Path) -> dict:
 		"distribution": {
 			"zero_bytes": hist[0],
 			"non_zero_bytes": non_zero,
-			"zero_ratio": round(hist[0] / len(buf), 6) if buf else 0.0,
-			"overall_entropy": shannon_entropy_from_hist(hist, len(buf)),
+			"zero_ratio": round(hist[0] / len(buf), 6) if len(buf) else 0.0,
+			"overall_entropy": entropy_from_hist(hist, len(buf)),
 		},
 		"ascii": {
-			"top_runs": ascii_runs,
-			"has_windows_save_path": any("Capitalism Lab" in run["text"] for run in ascii_runs),
+			"top_runs": find_ascii_runs(buf),
 		},
-		"regions": chunk_entropy(buf),
+		"chunks": chunk_stats(buf),
 	}
-	return report
 
 
 def main() -> None:
-	parser = argparse.ArgumentParser(description="Human-readable single-save extractor for Capitalism Lab .SAV files.")
+	parser = argparse.ArgumentParser(description="Human-readable single-save extractor")
 	parser.add_argument("-i", "--input", required=True, help="Input .SAV path")
-	parser.add_argument("-o", "--output", required=True, help="Output JSON path")
+	parser.add_argument("-o", "--output", required=True, help="Output .json path")
 	args = parser.parse_args()
 
 	in_path  = Path(args.input)
