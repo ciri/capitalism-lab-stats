@@ -1,6 +1,6 @@
 # /dev extraction scripts
 
-This folder contains repeatable extraction scripts for initial save-file reversing.
+This folder now contains basic, repeatable extraction scripts for initial save-file reversing:
 
 - `extract_basics.py`
 	- file size + first header words
@@ -10,11 +10,5 @@ This folder contains repeatable extraction scripts for initial save-file reversi
 - `scan_stride_candidates.py`
 	- brute-force stride scan to prioritize fixed-record-size hypotheses
 	- reports strides with lowest adjacent-record similarity
-- `scan_windows.py`
-	- bounded start/stride scan in a focused stride band (`752..768` by default)
-	- scores windows by cross-save record-level byte delta
-- `classify_fields.py`
-	- u32-per-offset field behavior classifier (`constant`, `low_cardinality`, `monotonic_non_decreasing`, `volatile`)
-	- summarizes per-file and cross-file classification consistency
 
-Outputs are written into `dev/out/` as JSON and should feed `ROADMAP.md` updates.
+Outputs are written into `dev/out/` as JSON and are intended to feed `ROADMAP.md` updates.

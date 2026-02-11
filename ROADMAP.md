@@ -71,56 +71,17 @@ Interpretation:
 - This does **not** prove firm struct size yet.
 - It does provide a strong first target band for deeper slicing + semantic field checks.
 
-### 5) Bounded start/stride window coherence scan
-
-Status: **initial extraction complete**
-
-What is confirmed:
-
-- Added bounded scanning across starts + stride band (`752..768`) with cross-save record delta scoring.
-- Current top windows are all at start `0x000000` with the lowest score at stride `752`.
-- Top five (by lowest average cross-save record delta):
-	- `(start=0, stride=752)` -> `0.407379`
-	- `(start=0, stride=756)` -> `0.410501`
-	- `(start=0, stride=760)` -> `0.413583`
-	- `(start=0, stride=764)` -> `0.416626`
-	- `(start=0, stride=768)` -> `0.419637`
-
-Interpretation:
-
-- The candidate band remains stable.
-- Window scoring currently prefers regions near the file head; this likely includes metadata/header overlap, so the next pass should skip early offsets and compare deeper starts.
-
-### 6) First u32 field volatility classification pass
-
-Status: **prototype extracted**
-
-What is confirmed:
-
-- Added per-offset u32 classification over candidate records (`stride=768`, `start=0`, first 512 records).
-- Across all three saves, every 4-byte offset in this region currently classifies as `volatile`.
-
-Interpretation:
-
-- The current classifier is useful for plumbing/output validation, but the chosen region (`start=0`) is too mixed/noisy.
-- Next refinement should classify at alternate starts from the window scan and incorporate cross-save/per-record stability signals.
-
 ## Implemented scripts
 
 - `dev/extract_basics.py`
 	- Produces `dev/out/baseline_report.json`.
 - `dev/scan_stride_candidates.py`
 	- Produces `dev/out/stride_candidates.json`.
-- `dev/scan_windows.py`
-	- Produces `dev/out/window_scan.json`.
-	- Bounded defaults are tuned to finish quickly in this environment.
-- `dev/classify_fields.py`
-	- Produces `dev/out/field_classification.json`.
 
 ## Next steps
 
-1. Re-run `scan_windows.py` with a non-zero start floor to avoid header bias and target mid-file regions.
-2. Extend `classify_fields.py` to classify both u32 and f32 interpretations and emit confidence hints.
-3. Add low-cardinality/id heuristics (including per-offset entropy) across candidate windows.
-4. Add monotonic accumulator detection over per-record temporal ordering once sequential saves are confirmed.
+1. Add a bounded scanner that tests candidate starts + stride `752..768` and measures month-to-month delta coherence.
+2. Build a u32/f32 field volatility classifier per offset within each candidate stride.
+3. Detect likely id/categorical fields (low cardinality, mostly constant per record).
+4. Isolate monotonic accumulators (candidate lifetime revenue/profit counters).
 5. Start carving sub-entity/unit regions by detecting repeated mini-blocks within candidate firm records.
