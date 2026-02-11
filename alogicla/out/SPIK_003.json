@@ -1,0 +1,443 @@
+{
+  "file": {
+    "name": "SPIK_003.SAV",
+    "path": "data/saves/SPIK_003.SAV",
+    "size_bytes": 9706261
+  },
+  "header": {
+    "u32_words": [
+      {
+        "offset": 0,
+        "value": 0
+      },
+      {
+        "offset": 4,
+        "value": 5416
+      },
+      {
+        "offset": 8,
+        "value": 1432107587
+      },
+      {
+        "offset": 12,
+        "value": 1936876915
+      },
+      {
+        "offset": 16,
+        "value": 1919837532
+      },
+      {
+        "offset": 20,
+        "value": 1146905449
+      },
+      {
+        "offset": 24,
+        "value": 1836409711
+      },
+      {
+        "offset": 28,
+        "value": 1937010277
+      },
+      {
+        "offset": 32,
+        "value": 544820572
+      },
+      {
+        "offset": 36,
+        "value": 1701667143
+      },
+      {
+        "offset": 40,
+        "value": 1631804531
+      },
+      {
+        "offset": 44,
+        "value": 1635019120
+      },
+      {
+        "offset": 48,
+        "value": 1836280172
+      },
+      {
+        "offset": 52,
+        "value": 1650543648
+      },
+      {
+        "offset": 56,
+        "value": 1447121756
+      },
+      {
+        "offset": 60,
+        "value": 1347640389
+      }
+    ],
+    "first_32_bytes_hex": "0000000028150000433a5c55736572735c656e7269635c446f63756d656e7473"
+  },
+  "distribution": {
+    "zero_bytes": 41974,
+    "non_zero_bytes": 9664287,
+    "zero_ratio": 0.004324,
+    "overall_entropy": 7.985479
+  },
+  "ascii": {
+    "top_runs": [
+      {
+        "offset": 374459,
+        "length": 133,
+        "text": ":F1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1@1"
+      },
+      {
+        "offset": 1374151,
+        "length": 109,
+        "text": "kI~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~`I~V"
+      },
+      {
+        "offset": 1735757,
+        "length": 108,
+        "text": "fN~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~`N~"
+      },
+      {
+        "offset": 2091848,
+        "length": 108,
+        "text": "vQ~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~`Q~"
+      },
+      {
+        "offset": 883996,
+        "length": 98,
+        "text": "M~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~"
+      },
+      {
+        "offset": 8,
+        "length": 66,
+        "text": "C:\\Users\\enric\\Documents\\My Games\\Capitalism Lab\\SAVE\\SPIK_003.SAV"
+      },
+      {
+        "offset": 472448,
+        "length": 56,
+        "text": "O$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$@$"
+      },
+      {
+        "offset": 9706147,
+        "length": 50,
+        "text": "S`~T`~t`~L`~l`~\\`~|`~B`~b`~R`~r`~J`~j`~Z`~z`~F`~f`"
+      },
+      {
+        "offset": 25130,
+        "length": 43,
+        "text": "https://capitalismlab.com/experimental-dlc/"
+      },
+      {
+        "offset": 798797,
+        "length": 43,
+        "text": "h9k?0k?0k?0k?0k?0k?0k?0k?0k?0k?0k?0k?0k?0k?"
+      },
+      {
+        "offset": 22288,
+        "length": 42,
+        "text": "https://capitalismlab.com/digital-age-dlc/"
+      },
+      {
+        "offset": 19446,
+        "length": 41,
+        "text": "https://capitalismlab.com/subsidiary-dlc/"
+      },
+      {
+        "offset": 27972,
+        "length": 41,
+        "text": "https://capitalismlab.com/smartphone-dlc/"
+      },
+      {
+        "offset": 2654131,
+        "length": 39,
+        "text": "~A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~`A~"
+      },
+      {
+        "offset": 23709,
+        "length": 38,
+        "text": "https://capitalismlab.com/banking-dlc/"
+      },
+      {
+        "offset": 26551,
+        "length": 38,
+        "text": "https://capitalismlab.com/service-dlc/"
+      },
+      {
+        "offset": 1762,
+        "length": 35,
+        "text": "SCENARIO\\SPEECH\\fashion_venture.mp3"
+      },
+      {
+        "offset": 1061,
+        "length": 34,
+        "text": "SCENARIO\\IMAGE\\fashion_venture.PNG"
+      },
+      {
+        "offset": 20867,
+        "length": 34,
+        "text": "https://capitalismlab.com/ces-dlc/"
+      },
+      {
+        "offset": 2654173,
+        "length": 29,
+        "text": "M~`A~`A~`A~`A~`A~`A~`A~`A~`A~"
+      },
+      {
+        "offset": 20161,
+        "length": 28,
+        "text": "City Economic Simulation DLC"
+      },
+      {
+        "offset": 18684,
+        "length": 26,
+        "text": "2023-09-17T11:44:39+00:00U"
+      },
+      {
+        "offset": 18583,
+        "length": 25,
+        "text": "2023-09-07T15:34:35+00:00"
+      },
+      {
+        "offset": 18632,
+        "length": 25,
+        "text": "2023-09-07T15:34:36+00:00"
+      },
+      {
+        "offset": 23003,
+        "length": 23,
+        "text": "Banking and Finance DLC"
+      }
+    ],
+    "has_windows_save_path": true
+  },
+  "regions": {
+    "chunk_size": 65536,
+    "top_entropy_chunks": [
+      {
+        "start": 983040,
+        "end": 1048575,
+        "length": 65536,
+        "entropy": 7.993676,
+        "zero_ratio": 0.003036
+      },
+      {
+        "start": 2752512,
+        "end": 2818047,
+        "length": 65536,
+        "entropy": 7.993638,
+        "zero_ratio": 0.00325
+      },
+      {
+        "start": 2490368,
+        "end": 2555903,
+        "length": 65536,
+        "entropy": 7.993503,
+        "zero_ratio": 0.003067
+      },
+      {
+        "start": 1310720,
+        "end": 1376255,
+        "length": 65536,
+        "entropy": 7.99346,
+        "zero_ratio": 0.003571
+      },
+      {
+        "start": 2162688,
+        "end": 2228223,
+        "length": 65536,
+        "entropy": 7.993417,
+        "zero_ratio": 0.003128
+      },
+      {
+        "start": 1179648,
+        "end": 1245183,
+        "length": 65536,
+        "entropy": 7.993339,
+        "zero_ratio": 0.003464
+      },
+      {
+        "start": 917504,
+        "end": 983039,
+        "length": 65536,
+        "entropy": 7.993299,
+        "zero_ratio": 0.003448
+      },
+      {
+        "start": 1048576,
+        "end": 1114111,
+        "length": 65536,
+        "entropy": 7.993219,
+        "zero_ratio": 0.002441
+      },
+      {
+        "start": 1900544,
+        "end": 1966079,
+        "length": 65536,
+        "entropy": 7.993186,
+        "zero_ratio": 0.002853
+      },
+      {
+        "start": 851968,
+        "end": 917503,
+        "length": 65536,
+        "entropy": 7.993154,
+        "zero_ratio": 0.002975
+      },
+      {
+        "start": 2686976,
+        "end": 2752511,
+        "length": 65536,
+        "entropy": 7.993008,
+        "zero_ratio": 0.003036
+      },
+      {
+        "start": 2031616,
+        "end": 2097151,
+        "length": 65536,
+        "entropy": 7.993001,
+        "zero_ratio": 0.003006
+      },
+      {
+        "start": 1966080,
+        "end": 2031615,
+        "length": 65536,
+        "entropy": 7.992991,
+        "zero_ratio": 0.00325
+      },
+      {
+        "start": 2424832,
+        "end": 2490367,
+        "length": 65536,
+        "entropy": 7.992948,
+        "zero_ratio": 0.003174
+      },
+      {
+        "start": 2359296,
+        "end": 2424831,
+        "length": 65536,
+        "entropy": 7.992848,
+        "zero_ratio": 0.00322
+      },
+      {
+        "start": 1441792,
+        "end": 1507327,
+        "length": 65536,
+        "entropy": 7.992799,
+        "zero_ratio": 0.003448
+      }
+    ],
+    "lowest_entropy_chunks": [
+      {
+        "start": 0,
+        "end": 65535,
+        "length": 65536,
+        "entropy": 6.933317,
+        "zero_ratio": 0.225037
+      },
+      {
+        "start": 4325376,
+        "end": 4390911,
+        "length": 65536,
+        "entropy": 7.655248,
+        "zero_ratio": 0.001877
+      },
+      {
+        "start": 4653056,
+        "end": 4718591,
+        "length": 65536,
+        "entropy": 7.721672,
+        "zero_ratio": 0.012939
+      },
+      {
+        "start": 4849664,
+        "end": 4915199,
+        "length": 65536,
+        "entropy": 7.738919,
+        "zero_ratio": 0.000854
+      },
+      {
+        "start": 4259840,
+        "end": 4325375,
+        "length": 65536,
+        "entropy": 7.742234,
+        "zero_ratio": 0.001129
+      },
+      {
+        "start": 4390912,
+        "end": 4456447,
+        "length": 65536,
+        "entropy": 7.751586,
+        "zero_ratio": 0.011414
+      },
+      {
+        "start": 4718592,
+        "end": 4784127,
+        "length": 65536,
+        "entropy": 7.754862,
+        "zero_ratio": 0.001358
+      },
+      {
+        "start": 4063232,
+        "end": 4128767,
+        "length": 65536,
+        "entropy": 7.758825,
+        "zero_ratio": 0.01178
+      },
+      {
+        "start": 3801088,
+        "end": 3866623,
+        "length": 65536,
+        "entropy": 7.771657,
+        "zero_ratio": 0.001282
+      },
+      {
+        "start": 4128768,
+        "end": 4194303,
+        "length": 65536,
+        "entropy": 7.777172,
+        "zero_ratio": 0.000885
+      },
+      {
+        "start": 3997696,
+        "end": 4063231,
+        "length": 65536,
+        "entropy": 7.782874,
+        "zero_ratio": 0.001205
+      },
+      {
+        "start": 4194304,
+        "end": 4259839,
+        "length": 65536,
+        "entropy": 7.798477,
+        "zero_ratio": 0.001358
+      },
+      {
+        "start": 4587520,
+        "end": 4653055,
+        "length": 65536,
+        "entropy": 7.803543,
+        "zero_ratio": 0.000763
+      },
+      {
+        "start": 4784128,
+        "end": 4849663,
+        "length": 65536,
+        "entropy": 7.807448,
+        "zero_ratio": 0.00145
+      },
+      {
+        "start": 4456448,
+        "end": 4521983,
+        "length": 65536,
+        "entropy": 7.812358,
+        "zero_ratio": 0.001541
+      },
+      {
+        "start": 4521984,
+        "end": 4587519,
+        "length": 65536,
+        "entropy": 7.812634,
+        "zero_ratio": 0.001556
+      }
+    ]
+  }
+}
