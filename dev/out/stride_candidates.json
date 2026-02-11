@@ -1,0 +1,252 @@
+{
+  "parameters": {
+    "start": 32,
+    "stop": 768,
+    "step": 4
+  },
+  "results": [
+    {
+      "file": "SPIK_001.SAV",
+      "size_bytes": 6403917,
+      "best_candidates": [
+        {
+          "stride": 768,
+          "adjacent_similarity": 0.017402,
+          "records": 8338
+        },
+        {
+          "stride": 764,
+          "adjacent_similarity": 0.017426,
+          "records": 8382
+        },
+        {
+          "stride": 756,
+          "adjacent_similarity": 0.017595,
+          "records": 8470
+        },
+        {
+          "stride": 752,
+          "adjacent_similarity": 0.017634,
+          "records": 8515
+        },
+        {
+          "stride": 760,
+          "adjacent_similarity": 0.017647,
+          "records": 8426
+        },
+        {
+          "stride": 748,
+          "adjacent_similarity": 0.017819,
+          "records": 8561
+        },
+        {
+          "stride": 744,
+          "adjacent_similarity": 0.017955,
+          "records": 8607
+        },
+        {
+          "stride": 740,
+          "adjacent_similarity": 0.018142,
+          "records": 8653
+        },
+        {
+          "stride": 736,
+          "adjacent_similarity": 0.018252,
+          "records": 8700
+        },
+        {
+          "stride": 732,
+          "adjacent_similarity": 0.018305,
+          "records": 8748
+        },
+        {
+          "stride": 728,
+          "adjacent_similarity": 0.01836,
+          "records": 8796
+        },
+        {
+          "stride": 724,
+          "adjacent_similarity": 0.018591,
+          "records": 8845
+        },
+        {
+          "stride": 720,
+          "adjacent_similarity": 0.018748,
+          "records": 8894
+        },
+        {
+          "stride": 716,
+          "adjacent_similarity": 0.018956,
+          "records": 8944
+        },
+        {
+          "stride": 708,
+          "adjacent_similarity": 0.018994,
+          "records": 9045
+        }
+      ]
+    },
+    {
+      "file": "SPIK_002.SAV",
+      "size_bytes": 2495704,
+      "best_candidates": [
+        {
+          "stride": 768,
+          "adjacent_similarity": 0.017434,
+          "records": 3249
+        },
+        {
+          "stride": 764,
+          "adjacent_similarity": 0.017624,
+          "records": 3266
+        },
+        {
+          "stride": 756,
+          "adjacent_similarity": 0.017729,
+          "records": 3301
+        },
+        {
+          "stride": 752,
+          "adjacent_similarity": 0.017846,
+          "records": 3318
+        },
+        {
+          "stride": 760,
+          "adjacent_similarity": 0.017861,
+          "records": 3283
+        },
+        {
+          "stride": 748,
+          "adjacent_similarity": 0.017893,
+          "records": 3336
+        },
+        {
+          "stride": 744,
+          "adjacent_similarity": 0.017997,
+          "records": 3354
+        },
+        {
+          "stride": 740,
+          "adjacent_similarity": 0.018145,
+          "records": 3372
+        },
+        {
+          "stride": 736,
+          "adjacent_similarity": 0.018391,
+          "records": 3390
+        },
+        {
+          "stride": 732,
+          "adjacent_similarity": 0.018502,
+          "records": 3409
+        },
+        {
+          "stride": 728,
+          "adjacent_similarity": 0.018551,
+          "records": 3428
+        },
+        {
+          "stride": 724,
+          "adjacent_similarity": 0.018593,
+          "records": 3447
+        },
+        {
+          "stride": 716,
+          "adjacent_similarity": 0.018746,
+          "records": 3485
+        },
+        {
+          "stride": 720,
+          "adjacent_similarity": 0.018808,
+          "records": 3466
+        },
+        {
+          "stride": 712,
+          "adjacent_similarity": 0.018849,
+          "records": 3505
+        }
+      ]
+    },
+    {
+      "file": "SPIK_003.SAV",
+      "size_bytes": 9706261,
+      "best_candidates": [
+        {
+          "stride": 768,
+          "adjacent_similarity": 0.017344,
+          "records": 12638
+        },
+        {
+          "stride": 764,
+          "adjacent_similarity": 0.017402,
+          "records": 12704
+        },
+        {
+          "stride": 760,
+          "adjacent_similarity": 0.017632,
+          "records": 12771
+        },
+        {
+          "stride": 756,
+          "adjacent_similarity": 0.017658,
+          "records": 12838
+        },
+        {
+          "stride": 752,
+          "adjacent_similarity": 0.017708,
+          "records": 12907
+        },
+        {
+          "stride": 748,
+          "adjacent_similarity": 0.017817,
+          "records": 12976
+        },
+        {
+          "stride": 740,
+          "adjacent_similarity": 0.017918,
+          "records": 13116
+        },
+        {
+          "stride": 744,
+          "adjacent_similarity": 0.017974,
+          "records": 13046
+        },
+        {
+          "stride": 736,
+          "adjacent_similarity": 0.018145,
+          "records": 13187
+        },
+        {
+          "stride": 732,
+          "adjacent_similarity": 0.018355,
+          "records": 13259
+        },
+        {
+          "stride": 728,
+          "adjacent_similarity": 0.018559,
+          "records": 13332
+        },
+        {
+          "stride": 724,
+          "adjacent_similarity": 0.018632,
+          "records": 13406
+        },
+        {
+          "stride": 720,
+          "adjacent_similarity": 0.018774,
+          "records": 13480
+        },
+        {
+          "stride": 716,
+          "adjacent_similarity": 0.018868,
+          "records": 13556
+        },
+        {
+          "stride": 712,
+          "adjacent_similarity": 0.018906,
+          "records": 13632
+        }
+      ]
+    }
+  ]
+}
